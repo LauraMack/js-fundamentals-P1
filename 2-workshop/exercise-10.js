@@ -13,6 +13,12 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let sum = ""
+  for (number = 1; number <= 7; number++) {
+    sum += `${'#'}`;
+    console.log(`${sum}`)
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
